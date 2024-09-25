@@ -1,0 +1,169 @@
+﻿
+@{
+    ViewBag.Title = "footer";
+}
+
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet" />
+<style>
+    * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+    }
+
+    .footerContainer {
+        font-family: "Montserrat", "HelveticaNeue", "Helvetica Neue", sans-serif;
+        ;
+        color: #fff;
+        background: linear-gradient(to bottom, rgba(1, 1, 1, 0.9), rgba(1, 1, 1, 0.9)), /* Gradient overlay */
+        url('~/media/Logo.jfif'); /* Background image */
+        background-position: 0 -500px;
+        background-size: cover;
+        background-blend-mode: overlay; /* Ensure the gradient blends with the image */
+        display: flex;
+        flex-direction: column;
+    }
+
+    .footer-top {
+        padding: 2rem 1rem;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .footer-bottom {
+        padding: 2rem 1rem;
+        width: 100%;
+        background: #000;
+    }
+
+    .footerTitle {
+        color: #ffe101
+    }
+
+    .licenseItem a, .supportItem a {
+        text-decoration: none;
+        color: #fff;
+    }
+
+    .socialList {
+        margin-top: 2rem;
+        display: flex;
+        gap: 1rem;
+    }
+
+    .socialItem {
+        height: 50px;
+    }
+
+    .paymentQR {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+        .paymentQR img {
+            transform: scale(0.7);
+        }
+
+    .contact, .license ul, .support ul {
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+    }
+    .contact{
+        width:35%;
+    }
+</style>
+<body>
+    <div class="footerContainer">
+        <div class="footer-top">
+            <div class="contact">
+                <h1 class="footerTitle">Liên hệ Chobaoho</h1>
+                <p>ĐỒ PHƯỢT VÀ BẢO HỘ XE MÁY</p>
+                <p>CN1: Tân Bình: 812 Lạc Long Quân</p>
+                <p>CN2: Thủ Đức: 975 Kha Vạn Cân</p>
+                <p>CN1: 0933.361.922</p>
+                <p>CN2: 0933.361.229</p>
+                <p>chobaoho@gmail.com</p>
+                <p>
+                    Mã số thuế: 41N8034136G do Ủy Ban Nhân Dân Quận Tân Bình cấp ngày
+                    02/04/2019.
+                </p>
+                <img src="https://bizweb.dktcdn.net/100/401/197/themes/891570/assets/logo_bct.png?1724227095973"
+                     alt=""
+                     height="100px"
+                     width="300px"
+                     style="margin-top: 1rem" />
+            </div>
+            <div class="license">
+                <h1 class="footerTitle">Chính sách</h1>
+                <ul>
+                    <li class="licenseItem"><a href="">Hướng dẫn mua hàng</a></li>
+                    <li class="licenseItem"><a href="">Thanh toán</a></li>
+                    <li class="licenseItem"><a href="">Điều khoản</a></li>
+                    <li class="licenseItem">
+                        <a href="">Chính sách bảo mật thông tin</a>
+                    </li>
+                    <li class="licenseItem"><a href="">Chính sách bán hàng</a></li>
+                    <li class="licenseItem"><a href="">Chính sách vận chuyển</a></li>
+                    <li class="licenseItem"><a href="">Chính sách đổi trả hàng</a></li>
+                    <li class="licenseItem"><a href="">Chính sách bảo hành</a></li>
+                    <li class="licenseItem"><a href="">Chính sách kiểm hàng</a></li>
+                </ul>
+            </div>
+            <div class="support">
+                <h1 class="footerTitle">Hỗ Trợ</h1>
+                <ul>
+                    <li class="supportItem"><a href="">Đăng nhập </a></li>
+                    <li class="supportItem"><a href="">Đăng ký</a></li>
+                    <li class="supportItem"><a href="">Giỏ hàng</a></li>
+                    <li class="supportItem"><a href="">Tuyển dụng</a></li>
+                </ul>
+            </div>
+            <div class="social">
+                <h1 class="footerTitle">Kết nối với Chobaoho</h1>
+                <div class="socialList">
+                    <a href="">
+                        <img class="socialItem"
+                             src="https://bizweb.dktcdn.net/100/401/197/themes/891570/assets/fb.png?1724227095973"
+                             alt="" />
+                    </a>
+                    <a href="" class="socialItem">
+                        <img class="socialItem"
+                             src="https://bizweb.dktcdn.net/100/401/197/themes/891570/assets/tk.png?1724227095973"
+                             alt="" />
+                    </a>
+                    <a href="" class="socialItem">
+                        <img class="socialItem"
+                             src="https://bizweb.dktcdn.net/100/401/197/themes/891570/assets/tk1.png?1724227095973"
+                             alt="" />
+                    </a>
+                    <a href="" class="socialItem">
+                        <img class="socialItem"
+                             src="https://bizweb.dktcdn.net/100/401/197/themes/891570/assets/instagram_-5.png?1724227095973"
+                             alt="" />
+                    </a>
+                    <a href="" class="socialItem">
+                        <img class="socialItem"
+                             src="https://bizweb.dktcdn.net/100/401/197/themes/891570/assets/yb.png?1724227095973"
+                             alt="" />
+                    </a>
+                </div>
+                <div class="paymentQR">
+                    <h1>Chấp nhận thanh toán</h1>
+                    <img src="~/media//z5799834826597_ee8eb5ee8830ae14e0d3c23d5d79240a.jpg"
+                         alt=""
+                         height="300px"
+                         style="border-radius: 1rem" />
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            &copy; Bản quyền thuộc về Chợ Bảo Hộ | Cung cấp bởi Chợ Bảo Hộ
+        </div>
+    </div>
+</body>
+

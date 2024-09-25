@@ -1,0 +1,102 @@
+﻿
+@{
+    ViewBag.Title = "sidebar";
+}
+
+<style>
+    * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+    }
+
+    body {
+        font-family: "Montserrat", sans-serif;
+    }
+
+    .sidebarContainer, .sidebarChild {
+        padding-top:1rem;
+        display: flex;
+        flex-direction: column;
+    }
+
+
+
+    .sidebarChild {
+        gap: 1rem;
+    }
+
+    .childTitle {
+        margin-left: 20%;
+    }
+
+    .childItem {
+        margin-left: 25%;
+        display: flex;
+        gap: 0.3rem;
+    }
+
+    .sideBanner {
+        display: flex;
+        justify-content: center;
+    }
+
+        .sideBanner img {
+            width: 50%;
+        }
+</style>
+<div class="sidebarContainer">
+    <div class="sidebarChild">
+        <h1 class="childTitle">Giá sản phẩm</h1>
+        <div class="childItem">
+            <input type="checkbox" name="" id="" /><label for="">100.000đ - 200.000đ</label>
+        </div>
+        <div class="childItem">
+            <input type="checkbox" name="" id="" /><label for=""></label>200.000đ
+            - 300.000đ
+        </div>
+        <div class="childItem">
+            <input type="checkbox" name="" id="" /><label for=""></label>300.000đ
+            - 500.000đ
+        </div>
+        <div class="childItem">
+            <input type="checkbox" name="" id="" /><label for=""></label>500.000đ
+            - 1.000.000đ
+        </div>
+        <div class="childItem">
+            <input type="checkbox" name="" id="" /><label for=""></label>1.000.000đ - 2.000.000đ
+        </div>
+        <div class="childItem">
+            <input type="checkbox" name="" id="" /><label for=""></label>Giá trên
+            2.000.000đ
+        </div>
+    </div>
+    <div class="sidebarChild">
+        <h1 class="childTitle">Loại</h1>
+        <div class="childItem">
+            <input type="checkbox" name="" id="" /><label for="">2HAND</label>
+        </div>
+        <div class="childItem">
+            <input type="checkbox" name="" id="" /><label for="">NÓN 3/4</label>
+        </div>
+        <div class="childItem">
+            <input type="checkbox" name="" id="" /><label for="">NÓN FULLFACE</label>
+        </div>
+        <div class="childItem">
+            <input type="checkbox" name="" id="" /><label for="">NÓN XE ĐẠP</label>
+        </div>
+        <div class="childItem">
+            <input type="checkbox" name="" id="" /><label for="">PHỤ KIỆN NÓN</label>
+        </div>
+    </div>
+    <div class="sidebarChild">
+        <h1 class="childTitle">Thương hiệu</h1>
+    </div>
+    <div class="sidebarChild">
+        <h1 class="childTitle">Khuyến mãi hot</h1>
+        <a href="" class="sideBanner">
+            <img src="https://bizweb.dktcdn.net/100/401/197/themes/891570/assets/aside_banner.png?1724227095973"
+                 alt="" />
+        </a>
+    </div>
+</div>

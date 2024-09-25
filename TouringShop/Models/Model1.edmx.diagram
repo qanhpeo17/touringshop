@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="e0c4b15cc535446d82b36fb1e9402949" Name="Diagram1">
+        <EntityTypeShape EntityType="ChoBaoHo1Model.Chitietdonhang" Width="1.5" PointX="5.25" PointY="5" IsExpanded="true" />
+        <EntityTypeShape EntityType="ChoBaoHo1Model.Danhgiasanpham" Width="1.5" PointX="8.25" PointY="5" IsExpanded="true" />
+        <EntityTypeShape EntityType="ChoBaoHo1Model.Danhmuc" Width="1.5" PointX="0.75" PointY="5.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="ChoBaoHo1Model.DonHang" Width="1.5" PointX="3" PointY="9" IsExpanded="true" />
+        <EntityTypeShape EntityType="ChoBaoHo1Model.Giohang" Width="1.5" PointX="5.25" PointY="2.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="ChoBaoHo1Model.KhachHang" Width="1.5" PointX="3" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ChoBaoHo1Model.Khuyenmai" Width="1.5" PointX="7.75" PointY="1.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="ChoBaoHo1Model.SanPham" Width="1.5" PointX="3" PointY="4.5" IsExpanded="true" />
+        <AssociationConnector Association="ChoBaoHo1Model.FK__Chitietdo__ID_DH__46E78A0C" ManuallyRouted="false" />
+        <AssociationConnector Association="ChoBaoHo1Model.FK__Chitietdo__ID_SP__47DBAE45" ManuallyRouted="false" />
+        <AssociationConnector Association="ChoBaoHo1Model.FK__Danhgiasa__ID_KH__4D94879B" ManuallyRouted="false" />
+        <AssociationConnector Association="ChoBaoHo1Model.FK__Danhgiasa__ID_SP__4CA06362" ManuallyRouted="false" />
+        <AssociationConnector Association="ChoBaoHo1Model.FK__SanPham__Lienket__3F466844" ManuallyRouted="false" />
+        <AssociationConnector Association="ChoBaoHo1Model.FK__DonHang__ID_KH__440B1D61" ManuallyRouted="false" />
+        <AssociationConnector Association="ChoBaoHo1Model.FK__Giohang__ID_KH__5441852A" ManuallyRouted="false" />
+        <AssociationConnector Association="ChoBaoHo1Model.FK__Giohang__ID_SP__5535A963" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

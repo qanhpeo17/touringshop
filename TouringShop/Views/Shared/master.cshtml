@@ -1,0 +1,27 @@
+﻿
+@{
+    ViewBag.Title = "master";
+    Layout = null;
+}
+<style>
+    .body{
+        display: flex;
+    }
+    .sidebarWrapper{
+        width:20%;
+    }
+    .contentWrapper{
+        width:80%;
+    }
+</style>
+@RenderPage("header.cshtml")
+<div class="body">
+    <div class="sidebarWrapper">
+        @RenderPage("sidebar.cshtml")
+    </div>
+    <div class="contentWrapper">
+        @RenderBody()
+    </div>
+
+</div>
+@RenderPage("footer.cshtml")
